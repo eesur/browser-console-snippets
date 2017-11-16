@@ -7,7 +7,7 @@ useful snippets for working in the browser
 
 Example showing d3 added so it can be used to play with a page it's not loaded on :)
 
-```
+```js
 const s = document.createElement('script')
 s.src = 'https://d3js.org/d3.v4.min.js'
 document.body.appendChild(s)
