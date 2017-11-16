@@ -3,6 +3,16 @@ useful snippets for working in the browser
 
 -----------------
 
+### add a library to page
+
+Example showing d3 added so it can be used to play with a page it's not loaded on :)
+
+const s = document.createElement('script')
+s.src = 'https://d3js.org/d3.v4.min.js'
+document.body.appendChild(s)
+
+-----------------
+
 ### Copying arrays form console: 
 
 Let say the outputted array is `var data = [{x:"xyz"}, {y:"foo"}, {z:"baz"}]`  
