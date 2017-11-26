@@ -31,3 +31,13 @@ if needed you can [stringify](https://developer.mozilla.org/en/docs/Web/JavaScri
 *may want to use  [jsbeautifier](http://jsbeautifier.org/) prior pasting into text editor 
 
 -----------------
+
+### shuffle an array
+
+const data = [0, 1, 2, 3, 4, 5, 6]
+
+const shuffleArray = d => d.sort(() => Math.random() - 0.5)
+
+const randomOrder = shuffleArray(data.slice())
+
+-----------------
